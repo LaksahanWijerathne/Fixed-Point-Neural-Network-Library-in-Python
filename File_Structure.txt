@@ -1,0 +1,29 @@
+fixed_point_neural_lib/
+│
+├── core/
+│   ├── fixed_point_arithmetic.py
+│   ├── neuron.py
+│   ├── layer.py
+│   └── activation_functions.py
+│
+├── models/
+│   ├── feedforward.py
+│   ├── convolutional.py
+│   ├── recurrent.py
+│   ├── autoencoder.py
+│   ├── gan.py
+│   └── transformer.py
+│
+├── training/
+│   ├── training_loop.py
+│   ├── optimizers.py
+│   └── loss_functions.py
+│
+├── utils/
+│   ├── data_processing.py
+│   └── metrics.py
+│
+└── tests/
+    ├── test_neuron.py
+    ├── test_feedforward.py
+    └── ...
